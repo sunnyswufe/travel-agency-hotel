@@ -28,6 +28,7 @@ push-to-releases:
         repository: $OKE_REPOSITORY/$WERCKER_APPLICATION_NAME
         registry: $OKE_REGISTRY
 
+
 deploy-to-oke:
   box:
         id: alpine
